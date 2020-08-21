@@ -30,6 +30,8 @@ object Configuration extends Logging {
   val FIELD_SPLIT = CommonVars("wds.linkis.field.split", "hadoop")
 
   val IS_TEST_MODE = CommonVars("wds.linkis.test.mode", false)
+ 
+ val HDP_VERSION = CommonVars("wds.linkis.hdp.version", "2.6.4.0-91")
 
   val hadoopConfDir = CommonVars("hadoop.config.dir", CommonVars("HADOOP_CONF_DIR", "").getValue).getValue
 
