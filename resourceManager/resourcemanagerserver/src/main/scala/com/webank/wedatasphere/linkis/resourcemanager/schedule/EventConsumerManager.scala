@@ -51,8 +51,8 @@ class EventConsumerManager(schedulerContext: SchedulerContext,
     override def run(): Unit = {
       info("Monitor consumer thread is running")
       while (true) {
-        Utils.tryAndWarn(checkAllConsumerHealthy())
         Utils.tryQuietly(Thread.sleep(5000))
+        Utils.tryAndWarn(checkAllConsumerHealthy())
       }
     }
   }
