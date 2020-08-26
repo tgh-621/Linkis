@@ -16,7 +16,7 @@
 
 package com.webank.wedatasphere.linkis.enginemanager.configuration
 
-import com.webank.wedatasphere.linkis.common.conf.{CommonVars, Configuration,Configuration}
+import com.webank.wedatasphere.linkis.common.conf.{CommonVars, Configuration}
 import com.webank.wedatasphere.linkis.common.utils.{ClassUtils, Logging}
 import com.webank.wedatasphere.linkis.engine.factory.SparkEngineExecutorFactory
 import com.webank.wedatasphere.linkis.enginemanager.AbstractEngineCreator
